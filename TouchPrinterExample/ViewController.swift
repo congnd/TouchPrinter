@@ -9,9 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
   @IBAction func onTapOpen(_ sender: Any) {
-    let vc = storyboard!.instantiateViewController(identifier: "ViewController")
+    let vc = storyboard!.instantiateViewController(withIdentifier: "ViewController")
     vc.view.backgroundColor = [
-      UIColor.systemIndigo,
       UIColor.systemGreen,
       UIColor.magenta,
       UIColor.orange,
