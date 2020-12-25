@@ -1,6 +1,8 @@
 ## TouchPrinter
 A tiny tool that highlights touches on screen.
 
+<img src="https://media.giphy.com/media/RHoaaVhDUUbqsCI0gk/giphy.gif" width="240"/>
+
 ### Installation
 
 #### SwiftPM
