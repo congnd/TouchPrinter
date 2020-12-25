@@ -14,7 +14,7 @@ let package = Package(
             targets: ["TouchPrinter"])
     ],
     targets: [
-        .target(name: "TouchPrinter"),
+        .target(name: "TouchPrinter", path: "TouchPrinter"),
     ],
     swiftLanguageVersions: [.v5]
 )
