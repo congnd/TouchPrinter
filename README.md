@@ -27,6 +27,14 @@ And then run `carthage update`
 
 ***This tool may not work with UIScene-enabled projects.***
 
+### Usuage
+
+Import `TouchPrinter` and in your `AppDelegate.swift`'s `application(_, didFinishLaunchingWithOptions)`,
+add the following line:
+```Swift
+TouchPrinter.start()
+```
+
 ## Contact
 Follow and contact me on [Twitter](https://twitter.com/congndcom). 
 If you find an issue, just [open a ticket](https://github.com/congnd/TouchPrinter/issues/new). 
