@@ -44,6 +44,9 @@ extension UIWindow {
       dotWindow.rootViewController = UIViewController()
       dotWindow.frame = UIScreen.main.bounds
       dotWindow.isHidden = false
+      if #available(iOS 13.0, *) {
+        dotWindow.windowScene = UIApplication.shared.keyWindow?.windowScene
+      }
       dotWindow.backgroundColor = .clear
       dotWindow.addSubview(dot)
 
